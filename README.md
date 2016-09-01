@@ -3,6 +3,11 @@
 This project is NOT MEANT FOR PRODUCTION. You should only use this as a reference or proof of concept to show how 
 a product may be added to a shopping cart in Hotcakes Commerce programmatically.
 
+## About Hotcakes Commerce
+
+[Hotcakes Commerce](https://hotcakescommerce.com) is an e-commerce solution that empowers developers and designers alike to be able to actually fulfill 
+client requirements when building an online store.  We believe that e-commerce should be easier, for EVERYONE on your team.
+
 ---
 
 ## Getting Started

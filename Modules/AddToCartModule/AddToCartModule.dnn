@@ -1,0 +1,67 @@
+<dotnetnuke type="Package" version="6.0">
+  <packages>
+    <package name="AddToCartModule" type="Module" version="01.00.00">
+      <friendlyName>AddToCartModule</friendlyName>
+      <description>AddToCartModule</description>
+      <iconFile>DesktopModules/AddToCartModule/Images/Hotcakes-Icon.png</iconFile>
+      <owner>
+        <name>Hotcakes Commerce</name>
+        <organization>Hotcakes Commerce, LLC</organization>
+        <url>https://hotcakescommerce.com</url>
+        <email>support@hotcakescommerce.com</email>
+      </owner>
+      <license src="License.txt"></license>
+      <releaseNotes src="ReleaseNotes.txt"></releaseNotes>
+      <dependencies>
+        <dependency type="CoreVersion">07.04.02</dependency>
+      </dependencies>
+      
+      <components>
+
+        <component type="ResourceFile">
+          <resourceFiles>
+            <basePath>DesktopModules/AddToCartModule</basePath>
+            <resourceFile>
+              <name>Resources.zip</name>
+            </resourceFile>
+          </resourceFiles>
+        </component>
+
+        <component type="Module">
+          <desktopModule>
+            <moduleName>AddToCartModule</moduleName>
+            <foldername>AddToCartModule</foldername>
+            <businessControllerClass>Hotcakes.Modules.AddToCartModule.Components.FeatureController, Hotcakes.Modules.AddToCartModule</businessControllerClass>
+            <supportedFeatures />
+            <moduleDefinitions>
+              <moduleDefinition>
+                <friendlyName>AddToCartModule</friendlyName>
+                <defaultCacheTime>0</defaultCacheTime>
+                <moduleControls>
+                  <moduleControl>
+                    <controlKey />
+                    <controlSrc>DesktopModules/AddToCartModule/View.ascx</controlSrc>
+                    <supportsPartialRendering>False</supportsPartialRendering>
+                    <controlTitle />
+                    <controlType>View</controlType>
+                    <iconFile />
+                    <helpUrl />
+                    <viewOrder>0</viewOrder>
+                  </moduleControl>
+                </moduleControls>
+              </moduleDefinition>
+            </moduleDefinitions>
+          </desktopModule>
+        </component>
+        <component type="Assembly">
+          <assemblies>
+            <basePath>bin</basePath>
+            <assembly>
+              <name>Hotcakes.Modules.AddToCartModule.dll</name>
+            </assembly>
+          </assemblies>
+        </component>
+      </components>
+    </package>
+  </packages>
+</dotnetnuke>

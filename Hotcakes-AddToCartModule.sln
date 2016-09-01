@@ -1,0 +1,42 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddToCartModule", "Modules\AddToCartModule\AddToCartModule.csproj", "{33503C44-9BC7-4B9B-B3A9-034A8B57E397}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration Files", "Configuration Files", "{04CB8221-5EF6-467A-98AD-993867F90C94}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		Website\DotNetNuke.log4net.config = Website\DotNetNuke.log4net.config
+		LICENSE = LICENSE
+		README.md = README.md
+		Website\web.config = Website\web.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{8CBE850F-8E30-47DE-8838-0D2468E6BA18}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build Files", "Build Files", "{6885C6DE-350B-4ADA-AF26-0AF633C93C20}"
+	ProjectSection(SolutionItems) = preProject
+		Build\ModulePackage.targets = Build\ModulePackage.targets
+		Build\ModulePackageSource.targets = Build\ModulePackageSource.targets
+		Build\SkinPackage.targets = Build\SkinPackage.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33503C44-9BC7-4B9B-B3A9-034A8B57E397}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33503C44-9BC7-4B9B-B3A9-034A8B57E397}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33503C44-9BC7-4B9B-B3A9-034A8B57E397}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33503C44-9BC7-4B9B-B3A9-034A8B57E397}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{33503C44-9BC7-4B9B-B3A9-034A8B57E397} = {8CBE850F-8E30-47DE-8838-0D2468E6BA18}
+	EndGlobalSection
+EndGlobal

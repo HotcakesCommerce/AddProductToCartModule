@@ -1,0 +1,16 @@
+﻿<div style="width:100%;height:375px;overflow:auto;">
+
+	<h1>Hotcakes Commerce, LLC</h1>
+	<h2>AddToCartModule</h2>
+
+	<p>Please note that this is not meant to be a production-ready module. It is only a proof of concept for developers.</p>
+
+	<h3>Version 01.00.00</h3>
+	<p><strong>Date Released:</strong> 09/01/2016</p>
+	<ul>
+		<li>Able to Add a product to the cart</li>
+	</ul>
+
+	<p>For more information about this and other Hotcakes Commerce projects <a href="https://github.com/HotcakesCommerce" target="_blank">visit the project website</a>.</p>
+
+</div>

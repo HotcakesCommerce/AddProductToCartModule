@@ -41,7 +41,7 @@ Be sure that you get the file permissions properly assigned to the folders when 
 
 ### Visual Studio Extensions
 
-The following Visual Studio Extensions are currently installed and being used in my environment, but are not 
+The following Visual Studio 2015 extensions are currently installed and being used in my environment, but are not 
 necessary to work on the project.  There are more, but these are the only ones that are relevant to this project.
 
 * Guidinserter2

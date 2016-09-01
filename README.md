@@ -3,6 +3,8 @@
 This project is NOT MEANT FOR PRODUCTION. You should only use this as a reference or proof of concept to show how 
 a product may be added to a shopping cart in Hotcakes Commerce programmatically.
 
+Related Documentation:  [https://hotcakescommerce.zendesk.com/hc/en-us/articles/204725889-Add-a-Product-to-Cart-Programmatically](https://hotcakescommerce.zendesk.com/hc/en-us/articles/204725889-Add-a-Product-to-Cart-Programmatically)
+
 ## About Hotcakes Commerce
 
 [Hotcakes Commerce](https://hotcakescommerce.com) is an e-commerce solution that empowers developers and designers alike to be able to actually fulfill 

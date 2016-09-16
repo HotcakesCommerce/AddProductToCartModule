@@ -12,7 +12,18 @@ client requirements when building an online store.  We believe that e-commerce s
 
 ---
 
-## Getting Started
+## Getting Started: End-Users
+
+**Prerequisite:**  You must already have a CMS ready to use this with, and a superuser account on the site.
+
+1. Download [the latest release](https://github.com/HotcakesCommerce/AddProductToCartModule/releases/latest) and save it somewhere on your computer.
+2. Login using your superuser account.
+3. Use the control panel to navigate to Host > Extensions.
+4. Click the "Install Extension" button, and a popup installation wizard will appear.
+5. Follow the steps in the installation wizard.
+6. After installation, add the module to a page and use it (preferrably a security-protected page).
+
+## Getting Started: Developers
 
 1. You should create a website folder where your project will be. This can be anywhere on your system.  For example 
 C:\Websites\MyProjectName\

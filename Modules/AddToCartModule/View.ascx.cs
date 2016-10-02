@@ -135,7 +135,7 @@ namespace Hotcakes.Modules.AddToCartModule
             Order currentCart = HccApp.OrderServices.EnsureShoppingCart();
 
             // create a line item for the cart using the product
-            LineItem li = HccApp.CatalogServices.ConvertProductToLineItem(product, new OptionSelections(), quantity, HccApp);
+            LineItem li = product.ConvertToLineItem(HccApp, quantity, new OptionSelections());
 
             // add the line item to the current cart
             HccApp.AddToOrderWithCalculateAndSave(currentCart, li);
